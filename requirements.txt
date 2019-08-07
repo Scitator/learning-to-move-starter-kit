@@ -1,0 +1,2 @@
+catalyst==19.08
+git+https://github.com/stanfordnmbl/osim-rl@dfd5e76415345293df8981d258d8ad6d5d472c7f

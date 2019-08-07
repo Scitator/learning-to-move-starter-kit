@@ -1,0 +1,16 @@
+args:
+  logdir: ./logs/l2m-ddpg  #  change me
+
+db:
+  port: 12000
+  prefix: ddpg  # TODO: remove
+
+agents:
+  actor:
+    agent: SkeletonActor
+    policy_head_params:  # hidden representation -> ~policy
+      policy_type: null
+      out_activation: Tanh
+
+algorithm:
+  algorithm: DDPG
